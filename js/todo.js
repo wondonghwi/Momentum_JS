@@ -7,13 +7,12 @@ const TODOS_LS = 'toDos';
 let toDos = [];
 
 const deleteToDo = (e) => {
-  const btn = e.target;
-  const li = btn.parentNode;
+  // console.log(e.target)
+  const li = e.target.parentNode;
   toDoList.removeChild(li);
-  const cleanToDos = toDos.filter(toDo => {
-    return toDo.id !== parseInt(li.id)
+  toDos = toDos.filter(toDo => {
+    return toDo.id !== parseInt(li.id);
   });
-  toDos = cleanToDos;
   saveToDos();
 }
 
