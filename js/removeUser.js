@@ -1,9 +1,7 @@
-const LS = 'currentUser';
-
 const removeUser = document.querySelector(".js-removeUser");
 
 const handleRemove = () => {
-  localStorage.removeItem(LS);
+  localStorage.clear();
   window.location.reload();
 }
 
