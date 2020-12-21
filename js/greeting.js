@@ -33,7 +33,6 @@ const paintGreeting = (text) => {
 
 const loadName = () => {
   const currentUser = localStorage.getItem(USER_LS);
-  console.log(currentUser)
   if (!currentUser) {
     askForName();
   } else {
