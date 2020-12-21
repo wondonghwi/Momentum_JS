@@ -4,7 +4,18 @@ const toDoList = document.querySelector('.js-toDoList');
 
 const TODOS_LS = 'toDos';
 
-const toDos = [];
+let toDos = [];
+
+const deleteToDo = (e) => {
+  const btn = e.target;
+  const li = btn.parentNode;
+  toDoList.removeChild(li);
+  const cleanToDos = toDos.filter(toDo => {
+    return toDo.id !== parseInt(li.id)
+  });
+  toDos = cleanToDos;
+  saveToDos();
+}
 
 const saveToDos = () => {
   //LocalStorage에는 string만 저장
@@ -17,6 +28,7 @@ const paintToDo = (text) => {
   const span = document.createElement('span');
   const newId = toDos.length + 1;
   delBtn.innerText = '❌';
+  delBtn.addEventListener('click' , deleteToDo);
   span.innerText = text;
   li.appendChild(delBtn);
   li.appendChild(span);
@@ -24,7 +36,7 @@ const paintToDo = (text) => {
   toDoList.appendChild(li);
   const toDoObj = {
     text,
-    newId,
+    id: newId,
   };
   toDos.push(toDoObj);
   saveToDos();
@@ -40,7 +52,6 @@ const handleSumbit = (e) => {
 const loadToDos = () => {
   const loadedTodos = localStorage.getItem(TODOS_LS);
   if (loadedTodos) {
-    console.log(loadedTodos)
     //string으로 바꿧던 내용을 -> Object로 변환
     const parsedTodos = JSON.parse(loadedTodos)
     parsedTodos.forEach((toDo) => paintToDo(toDo.text));
