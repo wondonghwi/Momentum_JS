@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7b84b52-288b-449b-96f7-17685aaf7586" name="Default Changelist" comment="js - clock , greeting , removeUser">
-      <change afterPath="$PROJECT_DIR$/js/todo.js" afterDir="false" />
+    <list default="true" id="a7b84b52-288b-449b-96f7-17685aaf7586" name="Default Changelist" comment="js - todoList ++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/greeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/greeting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/todo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <workItem from="1608326247527" duration="1734000" />
       <workItem from="1608422603624" duration="6774000" />
       <workItem from="1608446544881" duration="108000" />
-      <workItem from="1608508439479" duration="14302000" />
+      <workItem from="1608508439479" duration="17576000" />
     </task>
     <task id="LOCAL-00001" summary="ready html , js">
       <created>1608216047200</created>
@@ -87,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608530167735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="js - todoList ++">
+      <created>1608535172502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608535172502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +115,7 @@
     <MESSAGE value="link - js" />
     <MESSAGE value="ready - Momentum" />
     <MESSAGE value="js - clock , greeting , removeUser" />
-    <option name="LAST_COMMIT_MESSAGE" value="js - clock , greeting , removeUser" />
+    <MESSAGE value="js - todoList ++" />
+    <option name="LAST_COMMIT_MESSAGE" value="js - todoList ++" />
   </component>
 </project>

@@ -29,3 +29,19 @@ h1 {
 .showing {
     display: block;
 }
+
+
+.js-toDoList li button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.js-toDoList li span {
+    margin-left: 10px;
+}
+
+ul{
+    list-style:none;
+    padding-left: 0;
+}
