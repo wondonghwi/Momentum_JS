@@ -6,6 +6,7 @@ const TODOS_LS = 'toDos';
 
 let toDos = [];
 
+//삭제
 const deleteToDo = (e) => {
   // console.log(e.target)
   const li = e.target.parentNode;
@@ -16,6 +17,7 @@ const deleteToDo = (e) => {
   saveToDos();
 }
 
+//localStorage 저장
 const saveToDos = () => {
   //LocalStorage에는 string만 저장
   localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
