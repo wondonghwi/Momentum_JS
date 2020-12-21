@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7b84b52-288b-449b-96f7-17685aaf7586" name="Default Changelist" comment="link - js">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Momentum.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="a7b84b52-288b-449b-96f7-17685aaf7586" name="Default Changelist" comment="ready - Momentum">
+      <change afterPath="$PROJECT_DIR$/img/jellyfish-698521_1280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/moon-1527501_1280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sea-2755908_1280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/greeting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/removeUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/clock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +32,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ccom1012\Documents\Momentum\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ccom1012\Documents\Momentum\js" />
     </key>
@@ -56,7 +60,8 @@
       <workItem from="1608326167004" duration="57000" />
       <workItem from="1608326247527" duration="1734000" />
       <workItem from="1608422603624" duration="6774000" />
-      <workItem from="1608446544881" duration="25000" />
+      <workItem from="1608446544881" duration="108000" />
+      <workItem from="1608508439479" duration="10376000" />
     </task>
     <task id="LOCAL-00001" summary="ready html , js">
       <created>1608216047200</created>
@@ -72,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608216388532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ready - Momentum">
+      <created>1608446609485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608446609485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ready html , js" />
     <MESSAGE value="link - js" />
-    <option name="LAST_COMMIT_MESSAGE" value="link - js" />
+    <MESSAGE value="ready - Momentum" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready - Momentum" />
   </component>
 </project>

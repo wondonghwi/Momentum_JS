@@ -6,9 +6,23 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script src="js/main.js" defer></script>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<h1 id="title">JS 노우</h1>
+<div class="js-clock">
+  <h1>00:00</h1>
+</div>
+
+<button class="js-removeUser btn">초기화</button>
+
+<form class="js-form form">
+  <input type="text" placeholder="What is your name?" />
+</form>
+<h4 class="js-greetings greetings"></h4>
+
+<!--script -->
+<script src="js/clock.js"></script>
+<script src="js/greeting.js"></script>
+<script src="js/removeUser.js"></script>
 </body>
 </html>
