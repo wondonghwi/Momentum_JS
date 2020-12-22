@@ -7,7 +7,7 @@
 
 <b>localStorage에 저장되는 TodoList 작성</b>
 
-반복 -> ForEach문 사용 , 
+리스트 뿌려주기 -> map 사용 , 
 생성 -> Push 사용 , 
 삭제 -> filter 사용 ,
 

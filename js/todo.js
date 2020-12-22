@@ -8,9 +8,10 @@ let toDos = [];
 
 //삭제
 const deleteToDo = (e) => {
-  // console.log(e.target)
   const li = e.target.parentNode;
+  //Todo html 태그 삭제
   toDoList.removeChild(li);
+  //Todo 데이터 삭제 두가지 한번에 진행
   toDos = toDos.filter(toDo => {
     return toDo.id !== parseInt(li.id);
   });
@@ -55,7 +56,7 @@ const loadToDos = () => {
   if (loadedTodos) {
     //string으로 바꿧던 내용을 -> Object로 변환
     const parsedTodos = JSON.parse(loadedTodos)
-    parsedTodos.forEach((toDo) => paintToDo(toDo.text));
+    parsedTodos.map((toDo) => paintToDo(toDo.text));
   }
 };
 
